@@ -622,7 +622,7 @@ expects = undefined
    this function is very similar to 'append'. -}
 
 sequ :: Process -> Process -> Process
-sequ = undefined
+sequ p q = Input p q
 
 {- To check that you've got it right, make sure that
 
